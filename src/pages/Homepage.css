@@ -1,0 +1,62 @@
+.q5Card {
+    width: 240px;
+    height: 360px;
+    border: 1px solid #e8e8e8;
+    font-family: sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
+}
+
+.img-recipe {
+    width: 100%;
+}
+
+.q5Card h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.catq5{
+    margin-top: 15px;
+    margin-bottom: 3px;
+    color: #666666;
+    font-size: 10px;
+}
+.q5cost{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+.q5Card div{
+    padding: 0 0.5rem;
+}
+.q5Card button{
+    padding: 0.5rem;
+    background-color: #3454d1;
+    border: 1px solid #e8e8e8;
+    color: white;
+    border-radius: 5px;
+}
+
+.recipe-inst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe-inst p {
+    margin-bottom: 0;
+}
+
+.box-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.delete-btn {
+    position: absolute;
+}

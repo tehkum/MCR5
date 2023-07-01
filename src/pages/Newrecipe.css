@@ -1,0 +1,40 @@
+/* .add-new-form {
+    display: flex;
+    flex-direction: column;
+    width: 100
+} */
+
+.q1Form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #666666;
+    width: 400px;
+    padding: 1.5rem 1rem;
+}
+
+.q1Form input {
+    padding: 0.5rem;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.q1Form label {
+    margin-bottom: 5px;
+}
+
+.q1Form textarea {
+    padding: 0.5rem;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+.q1Form button {
+    color: white;
+    background-color: #323232;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
